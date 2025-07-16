@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './Components/Navbar'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import { FaShoppingCart } from 'react-icons/fa'
-import Home from './Pages/Home.jsx'
+import Home from './pages/Home.jsx'
 import AddProduct from "./pages/AddProduct.jsx"
 import Login from './pages/login.jsx'
 import Order from './pages/Order.jsx'
