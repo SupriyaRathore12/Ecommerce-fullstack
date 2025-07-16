@@ -4,7 +4,7 @@ import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import { FaShoppingCart } from 'react-icons/fa'
 import Home from './pages/Home.jsx'
 import AddProduct from "./pages/AddProduct.jsx"
-import Login from './pages/login.jsx'
+import Login from './pages/Login.jsx'
 import Order from './pages/Order.jsx'
 import Cart from "./pages/Cart.jsx"
 import Contact from "./pages/Contact.jsx"
