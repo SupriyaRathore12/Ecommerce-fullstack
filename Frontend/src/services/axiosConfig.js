@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance=axios.create({
-    baseURL:"http://localhost:4000",
+    baseURL:"https://ecommerce-fullstack-backend-7p2q.onrender.com",
     headers:{
         "Content-Type":"application/json",
     }
