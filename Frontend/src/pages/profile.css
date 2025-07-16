@@ -1,0 +1,40 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    /* margin: auto; */
+     
+}
+
+.profile-card {
+    border: 1px solid purple;
+     margin-top: 40px;
+    width: 450px;
+    height: 340px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    /* margin: 50px auto; */
+     box-shadow: 0px 0px 4px rgb(138, 86, 202);
+
+
+
+}
+
+.profile-card h2 {
+    color: rgb(139, 86, 209);
+    margin: 5px 0;
+
+}
+.profile-card p{
+    color: black;
+    font-family:  'Times New Roman', ;
+    font-size: 16px;
+    font-weight: bold;
+}
