@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
     res.send("hello world");
 })
 
-mongoose.connect("mongodb+srv://supriyarathor68:rJ16Ts5cvyxyjdH4@cluster0.umtc5pm.mongodb.net/Ecommerce-fullstack")
+mongoose.connect("mongodb+srv://supriyarathor68:Supriya123@cluster0.umtc5pm.mongodb.net/Ecommerce-fullstack?retryWrites=true&w=majority")
     .then(() => console.log("MongoDB Connected")
     )
     .catch(() => console.log("DB Not connected")
